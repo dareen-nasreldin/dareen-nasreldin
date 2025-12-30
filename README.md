@@ -37,5 +37,4 @@
   </a>
 </p>
 
-<img src="https://raw.githubusercontent.com/dareen-nasreldin/dareen-nasreldin/output/snake.svg" alt="Snake animation" />
 
