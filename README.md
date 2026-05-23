@@ -5,7 +5,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/api?font=Fira+Code&size=15&pause=1200&color=b55c90&center=true&vCenter=true&width=560&lines=builder+at+the+intersection+of+hardware+%26+software;signal+processing+%C2%B7+embedded+systems+%C2%B7+AI+pipelines;from+bare-metal+FPGA+to+full-stack+web" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com/api?font=JetBrains+Mono&size=14&pause=1200&color=b55c90&center=true&vCenter=true&width=580&lines=//+builder+at+the+intersection+of+hardware+%26+software;//+signal+processing+%C2%B7+embedded+systems+%C2%B7+AI+pipelines;//+from+bare-metal+FPGA+to+full-stack+web" alt="Typing SVG"/>
 
 <p>Class of 2029 &nbsp;·&nbsp; Minor in AI &nbsp;·&nbsp; Open to PEY Co-op &amp; internships · Summer 2027</p>
 
