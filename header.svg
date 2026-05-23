@@ -91,15 +91,15 @@
   <line x1="739" y1="68" x2="739" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
   <line x1="746" y1="68" x2="746" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
 
-  <!-- R_bot: 900,165 → 750,165 → 750,145 → 670,145 → 670,165 → 620,165 -->
-  <polyline points="900,165 800,165 800,125 705,125 705,175 450,175 450,200"
+  <!-- R_bot: AND gate output (825,165) → 800,165 → 800,125 → 705,125 → 705,175 → 450,175 → 450,200 -->
+  <polyline points="825,165 800,165 800,125 705,125 705,175 450,175 450,200"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
   <circle cx="800" cy="165" r="3.5" fill="#3d1f3d"/>
   <circle cx="800" cy="125" r="3.5" fill="#3d1f3d"/>
   <circle cx="705" cy="125" r="3.5" fill="#3d1f3d"/>
   <circle cx="705" cy="175" r="3.5" fill="#3d1f3d"/>
   <circle cx="450" cy="175" r="3.5" fill="#3d1f3d"/>
-  <!-- AND gate inputs (enter from right edge at y=152 and y=178) -->
+  <!-- AND gate: 2 inputs from right (y=152, y=178), 1 output left at y=165 -->
   <line x1="900" y1="152" x2="864" y2="152" stroke="#3d1f3d" stroke-width="2"/>
   <line x1="900" y1="178" x2="864" y2="178" stroke="#3d1f3d" stroke-width="2"/>
   <!-- AND gate on R_bot — flipped, output faces left -->
@@ -121,9 +121,8 @@
   <path id="p3" d="M0,165 L150,165 L150,145 L230,145 L230,165 L315,165 L315,200" fill="none"/>
   <path id="p4" d="M900,35 L750,35 L750,55 L670,55 L670,35 L620,35 L360,35 L360,0" fill="none"/>
   <path id="p5" d="M900,100 L790,100 L790,75 L680,75 L680,140 L620,140 L580,140 L350,140 L350,200" fill="none"/>
-  <path id="p6" d="M900,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
-  <path id="p7" d="M900,152 L864,152" fill="none"/>
-  <path id="p8" d="M900,178 L864,178" fill="none"/>
+  <path id="p7" d="M900,152 L864,152 L825,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
+  <path id="p8" d="M900,178 L864,178 L825,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
 
   <!-- ═══ ANIMATED PULSES ═══ -->
 
@@ -195,45 +194,27 @@
     </animateMotion>
   </circle>
 
-  <!-- Pulse 7 (R_bot top input) -->
-  <circle r="6" fill="#c97aab" filter="url(#glow)" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="1.5s"/>
-    <animateMotion dur="3.1s" repeatCount="indefinite" begin="1.5s">
+  <!-- Pulse 7 (AND top input → converges → output) -->
+  <circle r="6" fill="#c97aab" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="0s">
       <mpath xlink:href="#p7" href="#p7"/>
     </animateMotion>
   </circle>
-  <circle r="2.5" fill="#fce4f0" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="1.5s"/>
-    <animateMotion dur="3.1s" repeatCount="indefinite" begin="1.5s">
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="0s">
       <mpath xlink:href="#p7" href="#p7"/>
     </animateMotion>
   </circle>
 
-  <!-- Pulse 8 (R_bot bottom input) -->
-  <circle r="6" fill="#c97aab" filter="url(#glow)" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="0.8s"/>
-    <animateMotion dur="3.1s" repeatCount="indefinite" begin="0.8s">
+  <!-- Pulse 8 (AND bottom input → converges → output) -->
+  <circle r="6" fill="#c97aab" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="0s">
       <mpath xlink:href="#p8" href="#p8"/>
     </animateMotion>
   </circle>
-  <circle r="2.5" fill="#fce4f0" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="0.8s"/>
-    <animateMotion dur="3.1s" repeatCount="indefinite" begin="0.8s">
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="0s">
       <mpath xlink:href="#p8" href="#p8"/>
-    </animateMotion>
-  </circle>
-
-  <!-- Pulse 6 (R_bot) -->
-  <circle r="6" fill="#c97aab" filter="url(#glow)" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="2.2s"/>
-    <animateMotion dur="3.1s" repeatCount="indefinite" begin="2.2s">
-      <mpath xlink:href="#p6" href="#p6"/>
-    </animateMotion>
-  </circle>
-  <circle r="2.5" fill="#fce4f0" visibility="hidden">
-    <set attributeName="visibility" to="visible" begin="2.2s"/>
-    <animateMotion dur="3.1s" repeatCount="indefinite" begin="2.2s">
-      <mpath xlink:href="#p6" href="#p6"/>
     </animateMotion>
   </circle>
 
