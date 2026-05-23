@@ -44,7 +44,7 @@ jobs:
             const repos = user.pinnedItems.nodes;
             if (!repos.length) { console.log('No pinned repos found.'); return; }
 
-            const lines = repos.map(repo => {
+            const rows = repos.map(repo => {
               const lang = repo.primaryLanguage?.name ?? null;
 
               // deduplicate: skip topics that match the primary language (case-insensitive)
@@ -57,12 +57,11 @@ jobs:
                 .map(t => `\`${t}\``)
                 .join(' ');
 
-              const header = `**[${repo.name}](${repo.url})**${tags ? ' &nbsp;·&nbsp; ' + tags : ''}`;
-              const desc   = repo.description?.trim();
-              return desc ? `${header}\n> ${desc}` : header;
+              const desc = repo.description?.trim() || '';
+              return `| [${repo.name}](${repo.url}) | ${tags || '—'} | ${desc} |`;
             });
 
-            const block   = lines.join('\n\n');
+            const block = `| project | stack | about |\n|:---|:---|:---|\n${rows.join('\n')}`;
             let   readme  = fs.readFileSync('README.md', 'utf8');
             const updated = readme.replace(
               /<!-- PINNED_REPOS_START -->[\s\S]*?<!-- PINNED_REPOS_END -->/,
