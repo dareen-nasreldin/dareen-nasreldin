@@ -27,9 +27,12 @@
   <!-- ═══ LEFT TRACES ═══ -->
 
   <!-- L_top: 0,35 → 150,35 → 150,55 → 230,55 → 230,35 → 280,35 -->
-  <polyline points="0,0 0,35 150,35 150,55 230,55 230,35 230,0"
+  <polyline points="0,35 150,35 150,55 230,55 230,35 230,0"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
   <circle cx="150" cy="35" r="3.5" fill="#3d1f3d"/>
+  <circle cx="150" cy="55" r="3.5" fill="#3d1f3d"/>
+  <circle cx="230" cy="55" r="3.5" fill="#3d1f3d"/>
+  <circle cx="230" cy="35" r="3.5" fill="#3d1f3d"/>
   <!-- Resistor on L_top (x=55–115) -->
   <rect x="52" y="29" width="66" height="12" fill="#0d0a0f"/>
   <polyline points="52,35 60,35 63,27 69,43 75,27 81,43 87,27 93,43 97,35 118,35"
@@ -39,6 +42,8 @@
   <polyline points="0,100 110,100 110,75 200,75 200,100 280,100 280,0"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
   <circle cx="110" cy="100" r="3.5" fill="#3d1f3d"/>
+  <circle cx="110" cy="75" r="3.5" fill="#3d1f3d"/>
+  <circle cx="200" cy="75" r="3.5" fill="#3d1f3d"/>
   <circle cx="200" cy="100" r="3.5" fill="#3d1f3d"/>
   <circle cx="280" cy="100" r="3.5" fill="#3d1f3d"/>
   <!-- Capacitor on L_mid at x=153–161 on the y=75 segment -->
@@ -47,10 +52,13 @@
   <line x1="159" y1="68" x2="159" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
 
   <!-- L_bot: 0,165 → 150,165 → 150,145 → 230,145 → 230,165 → 280,165 -->
-  <polyline points="0,200 0,165 150,165 150,145 230,145 230,165 315,165 315, 200"
+  <polyline points=" 0,165 150,165 150,145 230,145 230,165 315,165 315, 200"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
   <circle cx="150" cy="165" r="3.5" fill="#3d1f3d"/>
+  <circle cx="150" cy="145" r="3.5" fill="#3d1f3d"/>
+  <circle cx="230" cy="145" r="3.5" fill="#3d1f3d"/>
   <circle cx="230" cy="165" r="3.5" fill="#3d1f3d"/>
+  <circle cx="315" cy="165" r="3.5" fill="#3d1f3d"/>
   <!-- NOT gate on L_bot (x=40–82) -->
   <rect x="36" y="157" width="42" height="16" fill="#0d0a0f"/>
   <polygon points="38,156 38,174 70,165" fill="#0d0a0f" stroke="#4d2f4d" stroke-width="1.5"/>
@@ -59,31 +67,40 @@
   <!-- ═══ RIGHT TRACES ═══ -->
 
   <!-- R_top: 900,35 → 750,35 → 750,55 → 670,55 → 670,35 → 620,35 -->
-  <polyline points="900,0 900,35 750,35 750,55 670,55 670,35 620,35 360,35 360, 0"
+  <polyline points="900,35 750,35 750,55 670,55 670,35 620,35 360,35 360, 0"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
   <circle cx="750" cy="35" r="3.5" fill="#3d1f3d"/>
+  <circle cx="750" cy="55" r="3.5" fill="#3d1f3d"/>
+  <circle cx="670" cy="55" r="3.5" fill="#3d1f3d"/>
   <circle cx="670" cy="35" r="3.5" fill="#3d1f3d"/>
+  <circle cx="360" cy="35" r="3.5" fill="#3d1f3d"/>
   <!-- Resistor on R_top (x=785–845) -->
   <rect x="782" y="29" width="66" height="12" fill="#0d0a0f"/>
   <polyline points="782,35 790,35 793,27 799,43 805,27 811,43 817,27 823,43 827,35 848,35"
             stroke="#4d2f4d" stroke-width="1.5" fill="none"/>
 
   <!-- R_mid: 900,100 → 790,100 → 790,75 → 700,75 → 700,100 → 620,100 -->
-  <polyline points="900,100 790,100 790,75 680,75 680,140 620,140 580, 140"
+  <polyline points="900,100 790,100 790,75 680,75 680,140 620,140 580,140 350,140 350,200"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
   <circle cx="790" cy="100" r="3.5" fill="#3d1f3d"/>
-  <circle cx="700" cy="100" r="3.5" fill="#3d1f3d"/>
+  <circle cx="790" cy="75" r="3.5" fill="#3d1f3d"/>
+  <circle cx="680" cy="75" r="3.5" fill="#3d1f3d"/>
+  <circle cx="680" cy="140" r="3.5" fill="#3d1f3d"/>
+  <circle cx="350" cy="140" r="3.5" fill="#3d1f3d"/>
   <!-- Capacitor on R_mid at x=739–747 on the y=75 segment -->
   <rect x="736" y="69" width="14" height="12" fill="#0d0a0f"/>
   <line x1="739" y1="68" x2="739" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
   <line x1="746" y1="68" x2="746" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
 
   <!-- R_bot: 900,165 → 750,165 → 750,145 → 670,145 → 670,165 → 620,165 -->
-  <polyline points="900,200 900,165 750,165 750,145 670,145 670,165 620,165"
+  <polyline points="900,165 800,165 800,125 705,125 705,175 450,175 450,200"
             stroke="#3d1f3d" stroke-width="2" fill="none"/>
-  <circle cx="750" cy="165" r="3.5" fill="#3d1f3d"/>
-  <circle cx="670" cy="165" r="3.5" fill="#3d1f3d"/>
-   <!-- AND gate on R_bot — flipped, output faces left -->
+  <circle cx="800" cy="165" r="3.5" fill="#3d1f3d"/>
+  <circle cx="800" cy="125" r="3.5" fill="#3d1f3d"/>
+  <circle cx="705" cy="125" r="3.5" fill="#3d1f3d"/>
+  <circle cx="705" cy="175" r="3.5" fill="#3d1f3d"/>
+  <circle cx="450" cy="175" r="3.5" fill="#3d1f3d"/>
+  <!-- AND gate on R_bot — flipped, output faces left -->
   <rect x="825" y="157" width="39" height="16" fill="#0d0a0f"/>
   <path d="M864,152 L849,152 Q825,152 825,165 Q825,178 849,178 L864,178 Z"
         fill="#0d0a0f" stroke="#4d2f4d" stroke-width="1.5"/>
@@ -97,12 +114,12 @@
         font-size="14.5" letter-spacing="2" fill="#7a4a6a">COMPUTER ENGINEERING  ·  UNIVERSITY OF TORONTO </text>
 
   <!-- ═══ PULSE PATHS (invisible guides) ═══ -->
-  <path id="p1" d="M0,0 L0,35 L150,35 L150,55 L230,55 L230,35 L280,35" fill="none"/>
-  <path id="p2" d="M0,100 L110,100 L110,75 L200,75 L200,100 L280,100" fill="none"/>
-  <path id="p3" d="M0,200 L0,165 L150,165 L150,145 L230,145 L230,165 L280,165" fill="none"/>
-  <path id="p4" d="M900,0 L900,35 L750,35 L750,55 L670,55 L670,35 L620,35" fill="none"/>
-  <path id="p5" d="M900,100 L790,100 L790,75 L700,75 L700,100 L620,100" fill="none"/>
-  <path id="p6" d="M900,200 L900,165 L750,165 L750,145 L670,145 L670,165 L620,165" fill="none"/>
+  <path id="p1" d="M0,35 L150,35 L150,55 L230,55 L230,35 L230,0" fill="none"/>
+  <path id="p2" d="M0,100 L110,100 L110,75 L200,75 L200,100 L280,100 L280,0" fill="none"/>
+  <path id="p3" d="M0,165 L150,165 L150,145 L230,145 L230,165 L315,165 L315,200" fill="none"/>
+  <path id="p4" d="M900,35 L750,35 L750,55 L670,55 L670,35 L620,35 L360,35 L360,0" fill="none"/>
+  <path id="p5" d="M900,100 L790,100 L790,75 L680,75 L680,140 L620,140 L580,140 L350,140 L350,200" fill="none"/>
+  <path id="p6" d="M900,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
 
   <!-- ═══ ANIMATED PULSES ═══ -->
 
