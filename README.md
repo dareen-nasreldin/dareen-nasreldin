@@ -19,8 +19,8 @@
 
 ![C++](https://img.shields.io/badge/C++-fef0f6?style=for-the-badge&logo=cplusplus&logoColor=b55c90)
 ![C](https://img.shields.io/badge/C-fef0f6?style=for-the-badge&logo=c&logoColor=b55c90)
-![Assembly](https://img.shields.io/badge/Assembly-f4f6fa?style=for-the-badge&logoColor=3a4a6b)
 ![Java](https://img.shields.io/badge/Java-fef0f6?style=for-the-badge&logo=openjdk&logoColor=b55c90)
+![Assembly](https://img.shields.io/badge/Assembly-f4f6fa?style=for-the-badge&logoColor=3a4a6b)
 ![Python](https://img.shields.io/badge/Python-fef0f6?style=for-the-badge&logo=python&logoColor=b55c90)
 ![JavaScript](https://img.shields.io/badge/JavaScript-fef0f6?style=for-the-badge&logo=javascript&logoColor=b55c90)
 ![TypeScript](https://img.shields.io/badge/TypeScript-fef0f6?style=for-the-badge&logo=typescript&logoColor=b55c90)
@@ -42,6 +42,22 @@
 
 ---
 
+### experience
+
+**Exiger** &nbsp;·&nbsp; SWE Intern &nbsp;·&nbsp; Summer 2026  
+> Product Engineering team building AI-powered supply chain  
+> and risk intelligence platforms. Focus on B2B integrations and APIs.
+
+**NeurotechUofT** &nbsp;·&nbsp; Software Member &nbsp;·&nbsp; Sep 2025 – Present  
+> Real-time biosignal processing pipelines (sEMG/EEG) and ML models  
+> for tremor detection in an assistive exoskeleton.
+
+**ECE297** &nbsp;·&nbsp; Team Member &nbsp;·&nbsp; Winter 2025  
+> Real city graph in C++: sub-second shortest-path queries across 100K+ intersections  
+> with a heuristic courier router approximating an NP-Hard multi-stop pickup-and-delivery problem.
+
+---
+
 ### what i've built
 
 <!-- PINNED_REPOS_START -->
@@ -60,6 +76,7 @@
 ### stats
 
 <img src="https://streak-stats.demolab.com/?user=dareen-nasreldin&hide_border=true&border_radius=6&background=fef0f6&stroke=f5c6df&ring=b55c90&fire=c97aab&currStreakNum=b55c90&sideNums=5a3d5c&currStreakLabel=b55c90&sideLabels=5a3d5c&dates=9a7a9a" />
+
 ---
 
 ### connect
