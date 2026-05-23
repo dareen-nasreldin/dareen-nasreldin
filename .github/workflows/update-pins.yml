@@ -1,0 +1,83 @@
+name: sync pinned repos
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 6 am UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch pinned repos and rewrite README section
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            const { user } = await github.graphql(`
+              query {
+                user(login: "dareen-nasreldin") {
+                  pinnedItems(first: 6, types: REPOSITORY) {
+                    nodes {
+                      ... on Repository {
+                        name
+                        description
+                        url
+                        primaryLanguage { name }
+                        repositoryTopics(first: 8) {
+                          nodes { topic { name } }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `);
+
+            const repos = user.pinnedItems.nodes;
+            if (!repos.length) { console.log('No pinned repos found.'); return; }
+
+            const lines = repos.map(repo => {
+              const lang = repo.primaryLanguage?.name ?? null;
+
+              // deduplicate: skip topics that match the primary language (case-insensitive)
+              const topics = repo.repositoryTopics.nodes
+                .map(n => n.topic.name)
+                .filter(t => !lang || t.toLowerCase() !== lang.toLowerCase());
+
+              const tags = [lang, ...topics]
+                .filter(Boolean)
+                .map(t => `\`${t}\``)
+                .join(' ');
+
+              const header = `**[${repo.name}](${repo.url})**${tags ? ' &nbsp;·&nbsp; ' + tags : ''}`;
+              const desc   = repo.description?.trim();
+              return desc ? `${header}\n> ${desc}` : header;
+            });
+
+            const block   = lines.join('\n\n');
+            let   readme  = fs.readFileSync('README.md', 'utf8');
+            const updated = readme.replace(
+              /<!-- PINNED_REPOS_START -->[\s\S]*?<!-- PINNED_REPOS_END -->/,
+              `<!-- PINNED_REPOS_START -->\n${block}\n<!-- PINNED_REPOS_END -->`
+            );
+
+            if (updated === readme) { console.log('No changes.'); return; }
+            fs.writeFileSync('README.md', updated);
+            console.log(`Updated with ${repos.length} pinned repos.`);
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "Nothing to commit." && exit 0
+          git add README.md
+          git commit -m "chore(readme): sync pinned repos"
+          git push

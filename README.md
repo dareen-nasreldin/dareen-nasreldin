@@ -48,7 +48,7 @@
 **[linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool)** &nbsp;·&nbsp; `Python`
 > A Python-based automation tool designed to streamline the internship search process. This utility automates job discovery and tracking by scraping data from LinkedIn and Indeed, saving key details directly to a private Notion database.
 
-**[NOMinEAT](https://github.com/dareen-nasreldin/NOMinEAT)** &nbsp;·&nbsp; `JavaScript` `javascript` `typescript`
+**[NOMinEAT](https://github.com/dareen-nasreldin/NOMinEAT)** &nbsp;·&nbsp; `JavaScript` `TypeScript`
 > NOMinEAT solves the "where should we eat?" dilemma for groups. Members NOMinate restaurants, genres, or locations, cast weighted 👍👎 votes, and the group's Top NOM is revealed when the session host ends it.  Built as a mobile-first web app with a clean API boundary, the same backend is designed to power a React Native mobile app in the future.
 
 **[flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog)**
