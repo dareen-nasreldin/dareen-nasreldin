@@ -6,12 +6,10 @@
 <br/><br/>
 
 
-<p>
-  <strong>Computer Engineering</strong> · University of Toronto · Class of 2029<br/>
-  Minor in AI &nbsp;·&nbsp; Certificates in Cybersecurity & Engineering Business
-</p>
+<p>Class of 2029 &nbsp;·&nbsp; Minor in AI &nbsp;·&nbsp; Certificates in Cybersecurity & Engineering Business</p>
 
-![Status](https://img.shields.io/badge/🟢_incoming-SWE_Intern_·_Exiger_Product_Engineering-a8dab5?style=for-the-badge&labelColor=f0faf3&color=2d7a4a)
+![Exiger](https://img.shields.io/badge/🟢_incoming-SWE_Intern_·_Exiger_Product_Engineering-a8dab5?style=for-the-badge&labelColor=f0faf3&color=2d7a4a)
+![Neurotech](https://img.shields.io/badge/⚡_Software_Member-NeurotechUofT-b0c4f8?style=for-the-badge&labelColor=eef2ff&color=3a5bd9)
 
 ---
 
@@ -65,6 +63,7 @@
 
 ### connect
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-fef0f6?style=for-the-badge&logo=githubpages&logoColor=b55c90)](https://dareen-nasreldin.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fef0f6?style=for-the-badge&logo=linkedin&logoColor=b55c90)](https://linkedin.com/in/dareen-nasreldin)
 [![Email](https://img.shields.io/badge/dareennasreldin@gmail.com-fef0f6?style=for-the-badge&logo=gmail&logoColor=b55c90)](mailto:dareennasreldin@gmail.com)
 
