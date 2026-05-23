@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="tglow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="tg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8a0c8"/>
+      <stop offset="100%" stop-color="#b55c90"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="#0d0a0f"/>
+
+  <!-- ═══ LEFT TRACES ═══ -->
+
+  <!-- L_top: 0,35 → 150,35 → 150,55 → 230,55 → 230,35 → 280,35 -->
+  <polyline points="0,0 0,35 150,35 150,55 230,55 230,35 230,0"
+            stroke="#3d1f3d" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="35" r="3.5" fill="#3d1f3d"/>
+  <!-- Resistor on L_top (x=55–115) -->
+  <rect x="52" y="29" width="66" height="12" fill="#0d0a0f"/>
+  <polyline points="52,35 60,35 63,27 69,43 75,27 81,43 87,27 93,43 97,35 118,35"
+            stroke="#4d2f4d" stroke-width="1.5" fill="none"/>
+
+  <!-- L_mid: 0,100 → 110,100 → 110,75 → 200,75 → 200,100 → 280,100 -->
+  <polyline points="0,100 110,100 110,75 200,75 200,100 280,100 280,0"
+            stroke="#3d1f3d" stroke-width="2" fill="none"/>
+  <circle cx="110" cy="100" r="3.5" fill="#3d1f3d"/>
+  <circle cx="200" cy="100" r="3.5" fill="#3d1f3d"/>
+  <circle cx="280" cy="100" r="3.5" fill="#3d1f3d"/>
+  <!-- Capacitor on L_mid at x=153–161 on the y=75 segment -->
+  <rect x="149" y="69" width="14" height="12" fill="#0d0a0f"/>
+  <line x1="152" y1="68" x2="152" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
+  <line x1="159" y1="68" x2="159" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
+
+  <!-- L_bot: 0,165 → 150,165 → 150,145 → 230,145 → 230,165 → 280,165 -->
+  <polyline points="0,200 0,165 150,165 150,145 230,145 230,165 315,165 315, 200"
+            stroke="#3d1f3d" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="165" r="3.5" fill="#3d1f3d"/>
+  <circle cx="230" cy="165" r="3.5" fill="#3d1f3d"/>
+  <!-- NOT gate on L_bot (x=40–82) -->
+  <rect x="36" y="157" width="42" height="16" fill="#0d0a0f"/>
+  <polygon points="38,156 38,174 70,165" fill="#0d0a0f" stroke="#4d2f4d" stroke-width="1.5"/>
+  <circle cx="74" cy="165" r="4" fill="#0d0a0f" stroke="#4d2f4d" stroke-width="1.5"/>
+
+  <!-- ═══ RIGHT TRACES ═══ -->
+
+  <!-- R_top: 900,35 → 750,35 → 750,55 → 670,55 → 670,35 → 620,35 -->
+  <polyline points="900,0 900,35 750,35 750,55 670,55 670,35 620,35 360,35 360, 0"
+            stroke="#3d1f3d" stroke-width="2" fill="none"/>
+  <circle cx="750" cy="35" r="3.5" fill="#3d1f3d"/>
+  <circle cx="670" cy="35" r="3.5" fill="#3d1f3d"/>
+  <!-- Resistor on R_top (x=785–845) -->
+  <rect x="782" y="29" width="66" height="12" fill="#0d0a0f"/>
+  <polyline points="782,35 790,35 793,27 799,43 805,27 811,43 817,27 823,43 827,35 848,35"
+            stroke="#4d2f4d" stroke-width="1.5" fill="none"/>
+
+  <!-- R_mid: 900,100 → 790,100 → 790,75 → 700,75 → 700,100 → 620,100 -->
+  <polyline points="900,100 790,100 790,75 680,75 680,140 620,140 580, 140"
+            stroke="#3d1f3d" stroke-width="2" fill="none"/>
+  <circle cx="790" cy="100" r="3.5" fill="#3d1f3d"/>
+  <circle cx="700" cy="100" r="3.5" fill="#3d1f3d"/>
+  <!-- Capacitor on R_mid at x=739–747 on the y=75 segment -->
+  <rect x="736" y="69" width="14" height="12" fill="#0d0a0f"/>
+  <line x1="739" y1="68" x2="739" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
+  <line x1="746" y1="68" x2="746" y2="82" stroke="#4d2f4d" stroke-width="2.5"/>
+
+  <!-- R_bot: 900,165 → 750,165 → 750,145 → 670,145 → 670,165 → 620,165 -->
+  <polyline points="900,200 900,165 750,165 750,145 670,145 670,165 620,165"
+            stroke="#3d1f3d" stroke-width="2" fill="none"/>
+  <circle cx="750" cy="165" r="3.5" fill="#3d1f3d"/>
+  <circle cx="670" cy="165" r="3.5" fill="#3d1f3d"/>
+   <!-- AND gate on R_bot — flipped, output faces left -->
+  <rect x="825" y="157" width="39" height="16" fill="#0d0a0f"/>
+  <path d="M864,152 L849,152 Q825,152 825,165 Q825,178 849,178 L864,178 Z"
+        fill="#0d0a0f" stroke="#4d2f4d" stroke-width="1.5"/>
+  <!-- ═══ CENTER TEXT ═══ -->
+  <text x="450" y="96" text-anchor="middle"
+        font-family="Consolas, 'Cascadia Code', 'Cascadia Mono', monospace"
+        font-size="34" font-weight="bold"
+        fill="url(#tg)" filter="url(#tglow)">DAREEN NASRELDIN</text>
+  <text x="450" y="124" text-anchor="middle"
+        font-family="Consolas, 'Cascadia Code', 'Cascadia Mono', monospace"
+        font-size="14.5" letter-spacing="2" fill="#7a4a6a">COMPUTER ENGINEERING  ·  UNIVERSITY OF TORONTO </text>
+
+  <!-- ═══ PULSE PATHS (invisible guides) ═══ -->
+  <path id="p1" d="M0,0 L0,35 L150,35 L150,55 L230,55 L230,35 L280,35" fill="none"/>
+  <path id="p2" d="M0,100 L110,100 L110,75 L200,75 L200,100 L280,100" fill="none"/>
+  <path id="p3" d="M0,200 L0,165 L150,165 L150,145 L230,145 L230,165 L280,165" fill="none"/>
+  <path id="p4" d="M900,0 L900,35 L750,35 L750,55 L670,55 L670,35 L620,35" fill="none"/>
+  <path id="p5" d="M900,100 L790,100 L790,75 L700,75 L700,100 L620,100" fill="none"/>
+  <path id="p6" d="M900,200 L900,165 L750,165 L750,145 L670,145 L670,165 L620,165" fill="none"/>
+
+  <!-- ═══ ANIMATED PULSES ═══ -->
+
+  <!-- Pulse 1 (L_top) -->
+  <circle r="6" fill="#b55c90" filter="url(#glow)">
+    <animateMotion dur="2.4s" repeatCount="indefinite" begin="0s">
+      <mpath xlink:href="#p1" href="#p1"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="2.4s" repeatCount="indefinite" begin="0s">
+      <mpath xlink:href="#p1" href="#p1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Pulse 2 (L_mid) -->
+  <circle r="6" fill="#b55c90" filter="url(#glow)">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="0.9s">
+      <mpath xlink:href="#p2" href="#p2"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="0.9s">
+      <mpath xlink:href="#p2" href="#p2"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Pulse 3 (L_bot) -->
+  <circle r="6" fill="#c97aab" filter="url(#glow)">
+    <animateMotion dur="3.1s" repeatCount="indefinite" begin="1.8s">
+      <mpath xlink:href="#p3" href="#p3"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="3.1s" repeatCount="indefinite" begin="1.8s">
+      <mpath xlink:href="#p3" href="#p3"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Pulse 4 (R_top) -->
+  <circle r="6" fill="#b55c90" filter="url(#glow)">
+    <animateMotion dur="2.4s" repeatCount="indefinite" begin="0.4s">
+      <mpath xlink:href="#p4" href="#p4"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="2.4s" repeatCount="indefinite" begin="0.4s">
+      <mpath xlink:href="#p4" href="#p4"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Pulse 5 (R_mid) -->
+  <circle r="6" fill="#b55c90" filter="url(#glow)">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="1.3s">
+      <mpath xlink:href="#p5" href="#p5"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="1.3s">
+      <mpath xlink:href="#p5" href="#p5"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Pulse 6 (R_bot) -->
+  <circle r="6" fill="#c97aab" filter="url(#glow)">
+    <animateMotion dur="3.1s" repeatCount="indefinite" begin="2.2s">
+      <mpath xlink:href="#p6" href="#p6"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#fce4f0">
+    <animateMotion dur="3.1s" repeatCount="indefinite" begin="2.2s">
+      <mpath xlink:href="#p6" href="#p6"/>
+    </animateMotion>
+  </circle>
+
+</svg>
