@@ -45,23 +45,14 @@
 ### what i'm building
 
 <!-- PINNED_REPOS_START -->
-**[flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog)**
-> _No description._
-
-**[flappy-Verilog-FPGA-source-code](https://github.com/dareen-nasreldin/flappy-Verilog-FPGA-source-code)** &nbsp;·&nbsp; `Verilog`
-> _No description._
-
-**[linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool)** &nbsp;·&nbsp; `Python`
-> _No description._
-
-**[UniTrack](https://github.com/dareen-nasreldin/UniTrack)** &nbsp;·&nbsp; `Python`
-> _No description._
-
-**[VGA-Music-Sequencer-](https://github.com/TannazC/VGA-Music-Sequencer-)** &nbsp;·&nbsp; `C`
-> _No description._
-
-**[Remi](https://github.com/ryabalta/Remi)** &nbsp;·&nbsp; `Python`
-> Remi – AI Memory Assistant is an interactive Python application that enhances memory and focus through conversational, voice-based exercises. Using real-time speech recognition, adaptive difficulty, and visual progress tracking, Remi delivers a personalized cognitive training experience that evolves with the user.
+| project | stack | description |
+|---|---|---|
+| [flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog) | | |
+| [flappy-Verilog-FPGA-source-code](https://github.com/dareen-nasreldin/flappy-Verilog-FPGA-source-code) | `Verilog` | |
+| [linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool) | `Python` | |
+| [UniTrack](https://github.com/dareen-nasreldin/UniTrack) | `Python` | |
+| [VGA-Music-Sequencer-](https://github.com/TannazC/VGA-Music-Sequencer-) | `C` | |
+| [Remi](https://github.com/ryabalta/Remi) | `Python` | AI memory assistant — voice-based cognitive training with adaptive difficulty |
 <!-- PINNED_REPOS_END -->
 
 ---
