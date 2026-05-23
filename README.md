@@ -45,14 +45,23 @@
 ### what i'm building
 
 <!-- PINNED_REPOS_START -->
-🎵 **VGA Music Sequencer** &nbsp;·&nbsp; `C` `Assembly` `FPGA` `Altera DE1-SoC`
-> Built an audio engine and keyboard controller for a VGA-rendered music sequencer running bare-metal on the Altera DE1-SoC FPGA board.
+**[flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog)**
+> _No description._
 
-🗺️ **GIS Mapping & Routing Engine** &nbsp;·&nbsp; `C++` `GIS` `UI/UX`
-> Developed a C++ GIS routing engine with UI clean-up and sidebar features for an interactive mapping and pathfinding application.
+**[flappy-Verilog-FPGA-source-code](https://github.com/dareen-nasreldin/flappy-Verilog-FPGA-source-code)** &nbsp;·&nbsp; `Verilog`
+> _No description._
 
-🔗 **LinkedIn → Notion Pipeline** &nbsp;·&nbsp; `TypeScript` `React` `Notion API`
-> Automation tool that syncs LinkedIn data into a structured Notion database.
+**[linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool)** &nbsp;·&nbsp; `Python`
+> _No description._
+
+**[UniTrack](https://github.com/dareen-nasreldin/UniTrack)** &nbsp;·&nbsp; `Python`
+> _No description._
+
+**[VGA-Music-Sequencer-](https://github.com/TannazC/VGA-Music-Sequencer-)** &nbsp;·&nbsp; `C`
+> _No description._
+
+**[Remi](https://github.com/ryabalta/Remi)** &nbsp;·&nbsp; `Python`
+> Remi – AI Memory Assistant is an interactive Python application that enhances memory and focus through conversational, voice-based exercises. Using real-time speech recognition, adaptive difficulty, and visual progress tracking, Remi delivers a personalized cognitive training experience that evolves with the user.
 <!-- PINNED_REPOS_END -->
 
 ---
