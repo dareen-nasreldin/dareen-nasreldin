@@ -100,8 +100,8 @@
   <circle cx="705" cy="175" r="3.5" fill="#3d1f3d"/>
   <circle cx="450" cy="175" r="3.5" fill="#3d1f3d"/>
   <!-- AND gate: 2 inputs from right (y=152, y=178), 1 output left at y=165 -->
-  <line x1="900" y1="152" x2="864" y2="152" stroke="#3d1f3d" stroke-width="2"/>
-  <line x1="900" y1="178" x2="864" y2="178" stroke="#3d1f3d" stroke-width="2"/>
+  <line x1="900" y1="157" x2="864" y2="157" stroke="#3d1f3d" stroke-width="2"/>
+  <line x1="900" y1="173" x2="864" y2="173" stroke="#3d1f3d" stroke-width="2"/>
   <!-- AND gate on R_bot — flipped, output faces left -->
   <rect x="825" y="157" width="39" height="16" fill="#0d0a0f"/>
   <path d="M864,152 L849,152 Q825,152 825,165 Q825,178 849,178 L864,178 Z"
@@ -121,8 +121,8 @@
   <path id="p3" d="M0,165 L150,165 L150,145 L230,145 L230,165 L315,165 L315,200" fill="none"/>
   <path id="p4" d="M900,35 L750,35 L750,55 L670,55 L670,35 L620,35 L360,35 L360,0" fill="none"/>
   <path id="p5" d="M900,100 L790,100 L790,75 L680,75 L680,140 L620,140 L580,140 L350,140 L350,200" fill="none"/>
-  <path id="p7" d="M900,152 L864,152 L825,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
-  <path id="p8" d="M900,178 L864,178 L825,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
+  <path id="p7" d="M900,157 L864,157 L825,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
+  <path id="p8" d="M900,173 L864,173 L825,165 L800,165 L800,125 L705,125 L705,175 L450,175 L450,200" fill="none"/>
 
   <!-- ═══ ANIMATED PULSES ═══ -->
 
