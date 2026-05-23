@@ -3,10 +3,11 @@
 <!-- ── CIRCUIT HEADER ─────────────────────────────────────────── -->
 <img src="header.svg" width="100%"/>
 
-<br/><br/>
+<br/>
 
+<img src="https://readme-typing-svg.demolab.com/api?font=Fira+Code&size=15&pause=1200&color=b55c90&center=true&vCenter=true&width=560&lines=builder+at+the+intersection+of+hardware+%26+software;signal+processing+%C2%B7+embedded+systems+%C2%B7+AI+pipelines;from+bare-metal+FPGA+to+full-stack+web" alt="Typing SVG"/>
 
-<p>Class of 2029 &nbsp;·&nbsp; Minor in AI &nbsp;·&nbsp; Certificates in Cybersecurity & Engineering Business</p>
+<p>Class of 2029 &nbsp;·&nbsp; Minor in AI &nbsp;·&nbsp; Open to PEY Co-op &amp; internships · Summer 2027</p>
 
 ![Exiger](https://img.shields.io/badge/🟢_incoming-SWE_Intern_·_Exiger_Product_Engineering-a8dab5?style=for-the-badge&labelColor=f0faf3&color=2d7a4a)
 ![Neurotech](https://img.shields.io/badge/⚡_Software_Member-NeurotechUofT-b0c4f8?style=for-the-badge&labelColor=eef2ff&color=3a5bd9)
