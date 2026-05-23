@@ -45,14 +45,23 @@
 ### what i've built
 
 <!-- PINNED_REPOS_START -->
-| project | stack | description |
-|---|---|---|
-| [flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog) | | |
-| [flappy-Verilog-FPGA-source-code](https://github.com/dareen-nasreldin/flappy-Verilog-FPGA-source-code) | `Verilog` | |
-| [linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool) | `Python` | |
-| [UniTrack](https://github.com/dareen-nasreldin/UniTrack) | `Python` | |
-| [VGA-Music-Sequencer-](https://github.com/TannazC/VGA-Music-Sequencer-) | `C` | |
-| [Remi](https://github.com/ryabalta/Remi) | `Python` | AI memory assistant — voice-based cognitive training with adaptive difficulty |
+**[linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool)** &nbsp;·&nbsp; `Python`
+> A Python-based automation tool designed to streamline the internship search process. This utility automates job discovery and tracking by scraping data from LinkedIn and Indeed, saving key details directly to a private Notion database.
+
+**[NOMinEAT](https://github.com/dareen-nasreldin/NOMinEAT)** &nbsp;·&nbsp; `JavaScript` `javascript` `typescript`
+> NOMinEAT solves the "where should we eat?" dilemma for groups. Members NOMinate restaurants, genres, or locations, cast weighted 👍👎 votes, and the group's Top NOM is revealed when the session host ends it.  Built as a mobile-first web app with a clean API boundary, the same backend is designed to power a React Native mobile app in the future.
+
+**[flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog)**
+> A hardware-based implementation of a "Flappy Bird" style obstacle game, written in Verilog for Altera/Intel DE-Series FPGA boards. This project utilizes a custom VGA controller for graphics, PS/2 keyboard for input, and 7-segment displays for score tracking.
+
+**[VGA-Music-Sequencer](https://github.com/dareen-nasreldin/VGA-Music-Sequencer)** &nbsp;·&nbsp; `C`
+> An embedded step sequencer implemented in C on the DE1-SoC FPGA board. Compose music on a sheet-music-style grid rendered over VGA, play it back in real time through the onboard audio output, and edit notes live using a PS/2 keyboard.
+
+**[Remi](https://github.com/ryabalta/Remi)** &nbsp;·&nbsp; `Python`
+> Remi – AI Memory Assistant is an interactive Python application that enhances memory and focus through conversational, voice-based exercises. Using real-time speech recognition, adaptive difficulty, and visual progress tracking, Remi delivers a personalized cognitive training experience that evolves with the user.
+
+**[UniTrack](https://github.com/dareen-nasreldin/UniTrack)** &nbsp;·&nbsp; `Python`
+> A personalized task tracker built for university life and internship applications. A local-hosted web application (full deployment in future) that lets you quickly capture tasks without the hassle, then organize them later when you have time.
 <!-- PINNED_REPOS_END -->
 
 ---
