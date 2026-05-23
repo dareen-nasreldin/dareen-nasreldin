@@ -42,7 +42,7 @@
 
 ---
 
-### what i'm building
+### what i've built
 
 <!-- PINNED_REPOS_START -->
 | project | stack | description |
