@@ -5,9 +5,10 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/api?font=JetBrains+Mono&size=14&pause=1200&color=b55c90&center=true&vCenter=true&width=580&lines=//+builder+at+the+intersection+of+hardware+%26+software;//+signal+processing+%C2%B7+embedded+systems+%C2%B7+AI+pipelines;//+from+bare-metal+FPGA+to+full-stack+web" alt="Typing SVG"/>
-
-<p>Class of 2029 &nbsp;·&nbsp; Minor in AI &nbsp;·&nbsp; Open to PEY Co-op &amp; internships · Summer 2027</p>
+<!-- ── TYPING ANIMATION ───────────────────────────────────────── -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1200&color=b55c90&center=true&vCenter=true&width=580&lines=>+building+where+circuits+meet+code;>+FPGA+%C2%B7+embedded+C+%C2%B7+AI+pipelines+%C2%B7+full-stack+web;>+open+to+PEY+Co-op+%26+internships+%C2%B7+2027;>+Computer+Engineering+%40+UofT+%C2%B7+Class+of+%2729" alt="Typing SVG" />
+</a>
 
 ![Exiger](https://img.shields.io/badge/🟢_incoming-SWE_Intern_·_Exiger_Product_Engineering-a8dab5?style=for-the-badge&labelColor=f0faf3&color=2d7a4a)
 ![Neurotech](https://img.shields.io/badge/⚡_Software_Member-NeurotechUofT-b0c4f8?style=for-the-badge&labelColor=eef2ff&color=3a5bd9)
@@ -59,7 +60,6 @@
 ### stats
 
 <img src="https://streak-stats.demolab.com/?user=dareen-nasreldin&hide_border=true&border_radius=6&background=fef0f6&stroke=f5c6df&ring=b55c90&fire=c97aab&currStreakNum=b55c90&sideNums=5a3d5c&currStreakLabel=b55c90&sideLabels=5a3d5c&dates=9a7a9a" />
-
 ---
 
 ### connect
