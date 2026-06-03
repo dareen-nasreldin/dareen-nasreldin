@@ -68,6 +68,7 @@
 | [flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog) | `de1-soc` `modelsim` `quartus-prime` `verilog` | A hardware-based implementation of a "Flappy Bird" style obstacle game, written in Verilog for Altera/Intel DE-Series FPGA boards. This project utilizes a custom VGA controller for graphics, PS/2 keyboard for input, and 7-segment displays for score tracking. |
 | [VGA-Music-Sequencer](https://github.com/dareen-nasreldin/VGA-Music-Sequencer) | `C` | An embedded step sequencer implemented in C on the DE1-SoC FPGA board. Compose music on a sheet-music-style grid rendered over VGA, play it back in real time through the onboard audio output, and edit notes live using a PS/2 keyboard. |
 | [Remi](https://github.com/ryabalta/Remi) | `Python` | Remi – AI Memory Assistant is an interactive Python application that enhances memory and focus through conversational, voice-based exercises. Using real-time speech recognition, adaptive difficulty, and visual progress tracking, Remi delivers a personalized cognitive training experience that evolves with the user. |
+| [CircuitMind](https://github.com/dareen-nasreldin/CircuitMind) | `JavaScript` |  |
 <!-- PINNED_REPOS_END -->
 
 ---
