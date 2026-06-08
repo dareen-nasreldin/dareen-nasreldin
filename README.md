@@ -20,6 +20,7 @@
 ![C++](https://img.shields.io/badge/C++-fef0f6?style=for-the-badge&logo=cplusplus&logoColor=b55c90)
 ![C](https://img.shields.io/badge/C-fef0f6?style=for-the-badge&logo=c&logoColor=b55c90)
 ![Java](https://img.shields.io/badge/Java-fef0f6?style=for-the-badge&logo=openjdk&logoColor=b55c90)
+![Verilog](https://img.shields.io/badge/Verilog-f4f6fa?style=for-the-badge&logoColor=3a4a6b)
 ![Assembly](https://img.shields.io/badge/Assembly-f4f6fa?style=for-the-badge&logoColor=3a4a6b)
 ![Python](https://img.shields.io/badge/Python-fef0f6?style=for-the-badge&logo=python&logoColor=b55c90)
 ![JavaScript](https://img.shields.io/badge/JavaScript-fef0f6?style=for-the-badge&logo=javascript&logoColor=b55c90)
@@ -30,8 +31,11 @@
 ![React](https://img.shields.io/badge/React-fef0f6?style=for-the-badge&logo=react&logoColor=b55c90)
 ![Next.js](https://img.shields.io/badge/Next.js-fef0f6?style=for-the-badge&logo=nextdotjs&logoColor=b55c90)
 ![Node.js](https://img.shields.io/badge/Node.js-fef0f6?style=for-the-badge&logo=nodedotjs&logoColor=b55c90)
+![Express](https://img.shields.io/badge/Express-fef0f6?style=for-the-badge&logo=express&logoColor=b55c90)
 ![HTML5](https://img.shields.io/badge/HTML5-fef0f6?style=for-the-badge&logo=html5&logoColor=b55c90)
-![MongoDB](https://img.shields.io/badge/MongoDB-fef0f6?style=for-the-badge&logo=mongodb&logoColor=b55c90)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-fef0f6?style=for-the-badge&logo=tailwindcss&logoColor=b55c90)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-fef0f6?style=for-the-badge&logo=postgresql&logoColor=b55c90)
+![Prisma](https://img.shields.io/badge/Prisma-fef0f6?style=for-the-badge&logo=prisma&logoColor=b55c90)
 
 ### embedded systems & hardware
 
@@ -64,7 +68,7 @@
 | project | stack | about |
 |:---|:---|:---|
 | [linkedin_notion_tool](https://github.com/dareen-nasreldin/linkedin_notion_tool) | `Python` | A Python-based automation tool designed to streamline the internship search process. This utility automates job discovery and tracking by scraping data from LinkedIn and Indeed, saving key details directly to a private Notion database. |
-| [NOMinEAT](https://github.com/dareen-nasreldin/NOMinEAT) | `JavaScript` `typescript` | NOMinEAT solves the "where should we eat?" dilemma for groups. Members NOMinate restaurants, genres, or locations, cast weighted 👍👎 votes, and the group's Top NOM is revealed when the session host ends it.  Built as a mobile-first web app with a clean API boundary, the same backend is designed to power a React Native mobile app in the future. |
+| [NOMinEAT](https://github.com/dareen-nasreldin/NOMinEAT) | `React` `Express` `PostgreSQL` `Prisma` `Tailwind` | NOMinEAT solves the "where should we eat?" dilemma for groups. Members NOMinate restaurants, genres, or locations, cast weighted 👍👎 votes, and the group's Top NOM is revealed when the session host ends it. Built as a mobile-first web app with a clean API boundary, the same backend is designed to power a React Native mobile app in the future. |
 | [flappy-FPGA-verilog](https://github.com/dareen-nasreldin/flappy-FPGA-verilog) | `de1-soc` `modelsim` `quartus-prime` `verilog` | A hardware-based implementation of a "Flappy Bird" style obstacle game, written in Verilog for Altera/Intel DE-Series FPGA boards. This project utilizes a custom VGA controller for graphics, PS/2 keyboard for input, and 7-segment displays for score tracking. |
 | [VGA-Music-Sequencer](https://github.com/dareen-nasreldin/VGA-Music-Sequencer) | `C` | An embedded step sequencer implemented in C on the DE1-SoC FPGA board. Compose music on a sheet-music-style grid rendered over VGA, play it back in real time through the onboard audio output, and edit notes live using a PS/2 keyboard. |
 | [Remi](https://github.com/ryabalta/Remi) | `Python` | Remi – AI Memory Assistant is an interactive Python application that enhances memory and focus through conversational, voice-based exercises. Using real-time speech recognition, adaptive difficulty, and visual progress tracking, Remi delivers a personalized cognitive training experience that evolves with the user. |
